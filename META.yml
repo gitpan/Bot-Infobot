@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name: Bot-Infobot
+version: 0.8
+author: ~
+abstract: ~
+license: perl
+requires:
+  Bot::BasicBot::Pluggable: 0.50
+  Config::Tiny: 0
+  DBI: 0
+  Test::More: 0
+provides:
+  Bot::Infobot::Config:
+    file: lib/Bot/Infobot/Config.pm
+generated_by: Module::Build version 0.25
