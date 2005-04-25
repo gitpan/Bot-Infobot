@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile
 (
           'NAME' => 'Bot::Infobot',
-          'VERSION' => '0.8',
+          'VERSION' => '0.9',
           'PREREQ_PM' => {
                            'Bot::BasicBot::Pluggable' => '0.50',
                            'Config::Tiny' => '0',
